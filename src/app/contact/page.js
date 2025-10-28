@@ -12,7 +12,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <div className='contain'>
-      <h1 className='title !text-5xl pb-[100px] text-center'>Let's Keep in Touch</h1>
+      <h1 className='title !text-5xl pb-[100px] text-center'>{`Let's Keep in Touch`}</h1>
       <div className="content flex items-center gap-[100px]">
         <div className="imgCont flex-1 h-[500px] relative">
           <Image
